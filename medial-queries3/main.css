@@ -1,3 +1,103 @@
 body {
-  background: peachpuff;
+  background: blanchedalmond;
+}
+
+* {
+  border: 1px solid teal;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-size: x-large;
+  align-items: center;
+}
+
+.a {
+  width: 100vh;
+  height: 30vh;
+  font-size: 3em;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.b {
+  min-height: 20vh;
+  min-width: 20vh;
+  text-align: center;
+  font-size: 2em;
+  margin: 20px 0px;
+}
+
+.c {
+  min-height: 20vh;
+  min-width: 20vh;
+  text-align: center;
+  font-size: 2em;
+  margin: 20px 0px;
+}
+.d {
+  min-height: 20vh;
+  min-width: 20vh;
+  text-align: center;
+  font-size: 2em;
+  margin: 20px 0px;
+}
+.e {
+  min-height: 20vh;
+  min-width: 20vh;
+  text-align: center;
+  font-size: 2em;
+  margin: 20px 0px;
+}
+
+.f {
+  min-height: 20vh;
+  min-width: 20vh;
+  text-align: center;
+  font-size: 2em;
+  margin: 20px 0px;
+}
+.g {
+  min-height: 20vh;
+  min-width: 20vh;
+  text-align: center;
+  font-size: 2em;
+  margin: 20px 0px;
+}
+aside  {
+  display:flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.h {
+  
+  width: 100vh;
+  height: 60vh;
+  margin: 20px 0px;
+  font-size: 3em;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .a {
+    width: 100%;
+  }
+  aside {
+    width: 50%;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 1em;
+  }
+  
+  .h {
+    width: 40%;
+    height: 50vh;
+  }
 }
