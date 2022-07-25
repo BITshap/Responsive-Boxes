@@ -1,0 +1,21 @@
+body {
+    background-color: cadetblue;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 2em;
+    text-align: center;
+    padding-right: 30px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color:aquamarine
+}
